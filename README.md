@@ -2,6 +2,10 @@
 
 ---
 
+# Frontend Mentor - Shortly URL shortening API Challenge
+
+![Design preview for the Shortly URL shortening API coding challenge](./design/desktop-preview.jpg)
+
 # svelte app
 
 This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
