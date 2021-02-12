@@ -13,6 +13,9 @@
   --gray_violet: hsl(257, 7%, 63%);
   --very_dark_blue: hsl(255, 11%, 22%);
   --very_dark_violet: hsl(260, 8%, 14%);
+
+  /* Text */
+  --text_normal: 1.125rem;
 }
 
 html,
@@ -26,6 +29,15 @@ body {
 
 body {
   margin: 0;
+  overflow-x: hidden;
+}
+
+.txt-medium {
+  font-weight: var(--text_medium);
+}
+
+.txt-heavy {
+  font-weight: var(--text_heavy);
 }
 
 .btn-rounded {
@@ -39,7 +51,19 @@ body {
 	cursor: pointer;
 }
 
-.btn-rounded:hover {
+.btn-rounded-lg {
+  background-color: var(--cyan);
+	color: white;
+	border: 1px solid var(--cyan);
+	border-radius: 3rem;
+	padding: .75rem;
+	padding-left: 2.5rem;
+  padding-right: 2.5rem;
+	cursor: pointer;
+  width: 7rem;
+}
+
+.btn-rounded:hover, .btn-rounded-lg:hover {
 	background-color: white;
 	color: var(--cyan);
 	border: 1px solid var(--cyan);
@@ -47,4 +71,12 @@ body {
 
 .txt-gray {
 	color: var(--gray);
+}
+
+.br-tight {
+  border-radius: .75rem !important;
+}
+
+input:focus{
+  outline: none;
 }
