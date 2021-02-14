@@ -41,42 +41,43 @@ body {
 }
 
 .btn-rounded {
-	background-color: var(--cyan);
-	color: white;
-	border: 1px solid var(--cyan);
-	border-radius: 2rem;
-	padding: .5rem;
-	padding-left: 1.5rem;
-    padding-right: 1.5rem;
-	cursor: pointer;
+  background-color: var(--cyan);
+  color: white;
+  border: 1px solid var(--cyan);
+  border-radius: 2rem;
+  padding: 0.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  cursor: pointer;
 }
 
 .btn-rounded-lg {
   background-color: var(--cyan);
-	color: white;
-	border: 1px solid var(--cyan);
-	border-radius: 3rem;
-	padding: .75rem;
-	padding-left: 2.5rem;
+  color: white;
+  border: 1px solid var(--cyan);
+  border-radius: 3rem;
+  padding: 0.75rem;
+  padding-left: 2.5rem;
   padding-right: 2.5rem;
-	cursor: pointer;
+  cursor: pointer;
   width: 7rem;
 }
 
-.btn-rounded:hover, .btn-rounded-lg:hover {
-	background-color: white;
-	color: var(--cyan);
-	border: 1px solid var(--cyan);
+.btn-rounded:hover,
+.btn-rounded-lg:hover {
+  background-color: white;
+  color: var(--cyan);
+  border: 1px solid var(--cyan);
 }
 
 .txt-gray {
-	color: var(--gray);
+  color: var(--gray);
 }
 
 .br-tight {
-  border-radius: .75rem !important;
+  border-radius: 0.75rem !important;
 }
 
-input:focus{
+input:focus {
   outline: none;
 }
