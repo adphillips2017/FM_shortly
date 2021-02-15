@@ -79,6 +79,13 @@
     align-items: center;
   }
 
+  .long-link {
+    max-width: 50%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
   .short-link-container {
     display: flex;
     align-items: center;

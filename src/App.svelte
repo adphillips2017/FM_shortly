@@ -13,13 +13,17 @@
 </script>
 
 <main>
-  <div class="main-container">
-    <Navbar />
-    <div class="spacer-7" />
+  <div class="bg-white">
+    <div class="main-container container">
+      <Navbar />
+      <div class="spacer-7" />
 
-    <PhotoHeader />
-    <div class="spacer-4" />
+      <PhotoHeader />
+      <div class="spacer-4" />
+    </div>
+  </div>
 
+  <div class="container secondary-container">
     <LinkShortener on:shortLinkCreated={handleShortLink} />
     <div class="spacer-1" />
 
@@ -33,10 +37,18 @@
 </main>
 
 <style>
-  .main-container {
+  .container {
     padding-top: 2rem;
     padding-left: 8rem;
     padding-right: 8rem;
+  }
+
+  .main-container {
+    padding-bottom: 6rem;
+  }
+
+  .secondary-container {
+    margin-top: -6.5rem;
   }
 
   .spacer-7 {

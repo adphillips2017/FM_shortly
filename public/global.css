@@ -11,6 +11,7 @@
   /* Neutral */
   --gray: hsl(0, 0%, 75%);
   --gray_violet: hsl(257, 7%, 63%);
+  --light_violet: hsl(218deg 31% 95%);
   --very_dark_blue: hsl(255, 11%, 22%);
   --very_dark_violet: hsl(260, 8%, 14%);
 
@@ -30,6 +31,7 @@ body {
 body {
   margin: 0;
   overflow-x: hidden;
+  background-color: var(--light_violet);
 }
 
 .txt-medium {
@@ -74,6 +76,10 @@ body {
   color: var(--cyan) !important;
   border: 1px solid var(--cyan);
   cursor: pointer;
+}
+
+.bg-white {
+    background-color: white;
 }
 
 .txt-gray {
