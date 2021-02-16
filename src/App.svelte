@@ -1,3 +1,11 @@
+<!--
+    @TODO:
+    - Mobile Menu
+    - Rework main container padding to width % + min width rem
+    - mobile queries for width % ^ to 95
+    - mobile styles for all components
+ -->
+
 <script lang="ts">
   import Navbar from "./components/Navbar.svelte";
   import PhotoHeader from "./components/PhotoHeader.svelte";

@@ -44,6 +44,7 @@ body {
 
 .btn {
     text-align: center;
+    white-space: nowrap;
 }
 
 .btn-rounded {

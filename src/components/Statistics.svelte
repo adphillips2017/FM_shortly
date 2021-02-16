@@ -9,6 +9,7 @@
     </div>
 
     <div class="blue-line">
+      <div class="blue-line-h"></div>
       <div class="stat-card br-tighter left">
         <div class="stat-logo">
           <img
@@ -80,6 +81,16 @@
       z-index: 0;
       justify-content: space-between;
       margin-top: 16rem;
+  }
+
+  .blue-line-h {
+    display: none;
+    /* position: absolute;
+    border-left: .5rem solid var(--cyan);
+    height: 90%;
+    left: 50%;
+    top: 4rem;
+    height: 100%; */
   }
 
   .stat-card {
