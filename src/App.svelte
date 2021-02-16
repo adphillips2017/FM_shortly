@@ -3,6 +3,10 @@
   import PhotoHeader from "./components/PhotoHeader.svelte";
   import LinkShortener from "./components/LinkShortener.svelte";
   import LinkCopier from "./components/LinkCopier.svelte";
+  import Statistics from './components/Statistics.svelte';
+  import CallToAction from './components/CallToAction.svelte';
+  import Footer from './components/Footer.svelte';
+
   import type { ShortenedLink } from "./models/ShortenedLink";
 
   let links: ShortenedLink[] = [];
@@ -33,7 +37,12 @@
     {/each}
 
     <div class="spacer-4" />
+    <Statistics />
+    <div class="spacer-4"></div>
   </div>
+
+  <CallToAction />
+  <Footer />
 </main>
 
 <style>
