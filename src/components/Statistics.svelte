@@ -9,7 +9,7 @@
     </div>
 
     <div class="blue-line">
-      <div class="blue-line-h"></div>
+      <div class="blue-line-h" />
       <div class="stat-card br-tighter left">
         <div class="stat-logo">
           <img
@@ -72,25 +72,19 @@
     font-weight: 800;
     font-size: 2.5rem;
     white-space: nowrap;
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
   }
 
   .blue-line {
-      border-top: .5rem solid var(--cyan);
-      display: flex;
-      z-index: 0;
-      justify-content: space-between;
-      margin-top: 16rem;
+    border-top: 0.5rem solid var(--cyan);
+    display: flex;
+    z-index: 0;
+    justify-content: space-between;
+    margin-top: 16rem;
   }
 
   .blue-line-h {
     display: none;
-    /* position: absolute;
-    border-left: .5rem solid var(--cyan);
-    height: 90%;
-    left: 50%;
-    top: 4rem;
-    height: 100%; */
   }
 
   .stat-card {
@@ -103,23 +97,24 @@
   }
 
   .stat-title {
-      margin-bottom: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 800;
   }
 
   .content {
-      font-size: .75rem;
+    font-size: 0.75rem;
   }
 
   .left {
-      margin-top: -10rem;
+    margin-top: -10rem;
   }
 
   .center {
-      margin-top: -8rem;
+    margin-top: -8rem;
   }
 
   .right {
-      margin-top: -6rem;
+    margin-top: -6rem;
   }
 
   .stat-logo {
@@ -134,6 +129,49 @@
   }
 
   .logo {
-      margin-top: .8rem;
+    margin-top: 0.8rem;
+  }
+
+  @media (max-width: 825px) {
+    .header {
+      width: auto;
+    }
+
+    .title {
+      font-size: 8vw;
+    }
+
+    .blue-line {
+      flex-direction: column;
+      border: none;
+      margin-top: 0rem;
+      position: relative;
+    }
+
+    .stat-card {
+      width: auto;
+      margin-top: 6rem;
+      text-align: center;
+    }
+
+    .stat-logo {
+      top: -2rem;
+      left: calc(50% - 2.5rem);
+      height: 5rem;
+      width: 5rem;
+    }
+
+    .logo {
+      margin-top: 1.25rem;
+    }
+
+    .blue-line-h {
+      position: absolute;
+      border-left: 0.5rem solid var(--cyan);
+      height: 90%;
+      left: 50%;
+      top: 4rem;
+      display: inline-block;
+    }
   }
 </style>

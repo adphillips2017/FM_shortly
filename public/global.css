@@ -43,8 +43,8 @@ body {
 }
 
 .btn {
-    text-align: center;
-    white-space: nowrap;
+  text-align: center;
+  white-space: nowrap;
 }
 
 .btn-rounded {
@@ -80,7 +80,7 @@ body {
 }
 
 .bg-white {
-    background-color: white;
+  background-color: white;
 }
 
 .txt-gray {
@@ -88,11 +88,11 @@ body {
 }
 
 .br-tight {
-  border-radius: 0.75rem !important;
+  border-radius: 0.45rem !important;
 }
 
 .br-tighter {
-    border-radius: .5rem !important;
+  border-radius: 0.5rem !important;
 }
 
 input:focus {
@@ -100,9 +100,19 @@ input:focus {
 }
 
 input:disabled {
-    cursor: not-allowed;
+  cursor: not-allowed;
 }
 
 input:disabled::placeholder {
-    color: var(--gray);
+  color: var(--gray);
+}
+
+.spacer-7 {
+  height: 7rem;
+}
+.spacer-4 {
+  height: 4rem;
+}
+.spacer-1 {
+  height: 1.5rem;
 }

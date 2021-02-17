@@ -68,13 +68,16 @@
     margin-top: -6.5rem;
   }
 
-  .spacer-7 {
-    height: 7rem;
-  }
-  .spacer-4 {
-    height: 4rem;
-  }
-  .spacer-1 {
-    height: 1.5rem;
+  @media (max-width: 825px) {
+      .container {
+          width: 85%;
+          margin: auto;
+          padding-left: 0;
+          padding-right: 0;
+      }
+
+      .main-container {
+          padding-bottom: 0;
+      }
   }
 </style>

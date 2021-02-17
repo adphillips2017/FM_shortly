@@ -59,7 +59,10 @@
     <span class="long-link">{link.longLink}</span>
     <div class="short-link-container">
       <span class="short-link" id="shortLink">{link.shortLink}</span>
-      <div on:click={handleClick} class="btn br-tighter {copied ? 'copied' : ''}" >
+      <div
+        on:click={handleClick}
+        class="btn br-tighter {copied ? 'copied' : ''}"
+      >
         {#if copied}
           Copied!
         {:else}
@@ -119,5 +122,35 @@
     border-color: var(--dark_violet) !important;
     color: white !important;
     cursor: none;
+  }
+
+  @media (max-width: 825px) {
+    .container {
+      flex-direction: column;
+      padding: 0;
+    }
+
+    .short-link-container {
+      align-items: normal;
+      flex-direction: column;
+      width: 100%;
+      border-top: 1px solid lightgray;
+    }
+
+    .short-link {
+        margin: 1rem;
+    }
+
+    .long-link {
+        width: auto;
+        margin: 1rem;
+        margin-right: auto;
+    }
+
+    .btn {
+        margin: 1rem;
+        margin-top: 0;
+        width: auto;
+    }
   }
 </style>

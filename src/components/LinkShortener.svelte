@@ -150,4 +150,30 @@
     top: 0rem;
     left: 4rem;
   }
+
+  @media (max-width: 825px) {
+    .bg-container {
+        flex-direction: column;
+        background-size: cover;
+        background-position: top;
+    }
+
+    #userInput {
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+
+    .btn {
+        width: auto;
+        height: 2rem;
+    }
+
+    .error-message {
+        bottom: 7rem;
+    }
+
+    .spinner {
+        left: calc(50% - 2rem);
+    }
+  }
 </style>

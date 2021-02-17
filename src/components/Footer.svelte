@@ -74,7 +74,7 @@
   }
 
   .logo-container {
-      flex-grow: 1;
+    flex-grow: 1;
   }
 
   svg {
@@ -124,5 +124,36 @@
     margin-left: 1.5rem;
     align-items: center;
     height: fit-content;
+  }
+
+  @media (max-width: 825px) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .logo-container {
+      margin-bottom: 2rem;
+    }
+
+    .links-container {
+      flex-direction: column;
+    }
+
+    .column {
+      margin-right: 0;
+      margin-bottom: 3rem;
+    }
+
+    .socials {
+      margin-left: 0;
+      margin: 0 auto;
+    }
+
+    svg:first-of-type {
+        margin-left: 0;
+    }
   }
 </style>

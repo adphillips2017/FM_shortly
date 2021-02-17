@@ -25,4 +25,11 @@
   .btn {
     margin: auto;
   }
+
+  @media (max-width: 825px) {
+    .header {
+      font-size: 6vw;
+      white-space: nowrap;
+    }
+  }
 </style>
