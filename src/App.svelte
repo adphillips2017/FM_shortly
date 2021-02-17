@@ -1,11 +1,3 @@
-<!--
-    @TODO:
-    - Mobile Menu
-    - Rework main container padding to width % + min width rem
-    - mobile queries for width % ^ to 95
-    - mobile styles for all components
- -->
-
 <script lang="ts">
   import Navbar from "./components/Navbar.svelte";
   import PhotoHeader from "./components/PhotoHeader.svelte";
@@ -56,8 +48,9 @@
 <style>
   .container {
     padding-top: 2rem;
-    padding-left: 8rem;
-    padding-right: 8rem;
+    width: 95%;
+    margin: auto;
+    max-width: 70rem;
   }
 
   .main-container {

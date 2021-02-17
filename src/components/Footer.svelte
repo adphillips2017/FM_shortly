@@ -92,6 +92,7 @@
 
   .logo {
     height: fit-content;
+    margin-right: 2rem;
   }
 
   .title {
@@ -132,6 +133,10 @@
       text-align: center;
       padding-left: 0;
       padding-right: 0;
+    }
+
+    .logo {
+        margin-right: 0;
     }
 
     .logo-container {
