@@ -39,4 +39,33 @@
     margin-top: -4rem;
     margin-left: 4rem;
   }
+
+  @media (max-width: 825px) {
+    .photo-header {
+      flex-direction: column-reverse;
+    }
+
+    .illustration {
+      margin-left: 0;
+      height: 26rem;
+      width: fit-content;
+    }
+
+    .text {
+        text-align: center;
+        width: auto;
+    }
+
+    .header {
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+        font-size: 3rem;
+        font-weight: 800;
+        line-height: 3.5rem;
+    }
+
+    .btn {
+        margin: auto;
+    }
+  }
 </style>
