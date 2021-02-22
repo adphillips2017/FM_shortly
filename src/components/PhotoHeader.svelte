@@ -47,25 +47,25 @@
 
     .illustration {
       margin-left: 0;
-      height: 26rem;
-      width: fit-content;
+      height: auto;
+      width: 155%;
     }
 
     .text {
-        text-align: center;
-        width: auto;
+      text-align: center;
+      width: auto;
     }
 
     .header {
-        margin-bottom: 1rem;
-        margin-top: 2rem;
-        font-size: 3rem;
-        font-weight: 800;
-        line-height: 3.5rem;
+      margin-bottom: 1rem;
+      margin-top: 2rem;
+      font-size: 3rem;
+      font-weight: 800;
+      line-height: 3.5rem;
     }
 
     .btn {
-        margin: auto;
+      margin: auto;
     }
   }
 </style>

@@ -26,6 +26,7 @@ body {
   height: 100%;
   font-family: "Poppins", sans-serif;
   font-size: 1.125rem;
+  overflow-x: hidden;
 }
 
 body {
