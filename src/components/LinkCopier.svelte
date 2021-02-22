@@ -145,6 +145,7 @@
         width: auto;
         margin: 1rem;
         margin-right: auto;
+        max-width: 90%;
     }
 
     .btn {
